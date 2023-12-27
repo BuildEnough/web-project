@@ -2,26 +2,55 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Index Page</title>
+    <title>메인 페이지</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <div th:replace="fragments/layout :: header"></div>
 
-<div>
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Welcome to Your Site, where we provide...</p>
+<div id="mainIndex"><h1>채용 사이트</h1></div>
+
+<div id="mainImages">
+    <section id="saramin">
+        <h2>사람인</h2>
+        <a href="https://www.saramin.co.kr/zf_user/">
+            <img src="images/saramin.png" alt="사람인 이미지" width="400px" height="200px">
+        </a>
     </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>Explore our range of services including...</p>
+    <section id="jobkorea">
+        <h2>잡코리아</h2>
+        <a href="https://www.jobkorea.co.kr/">
+            <img src="images/jobkorea.png" alt="잡코리아 이미지" width="400px" height="200px">
+        </a>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Get in touch with us via email or phone...</p>
+    <section id="wanted">
+        <h2>원티드</h2>
+        <a href="https://www.wanted.co.kr/jobsfeed">
+            <img src="images/wanted.jpeg" alt="원티드 이미지" width="400px" height="200px">
+        </a>
+    </section>
+
+    <section id="programmers">
+        <h2>프로그래머스</h2>
+        <a href="https://career.programmers.co.kr/job">
+            <img src="images/programmers.jpeg" alt="프로그래머스 이미지" width="400px" height="200px">
+        </a>
+    </section>
+
+    <section id="jumpit">
+        <h2>점핏</h2>
+        <a href="https://www.jumpit.co.kr/">
+            <img src="images/jumpit.png" alt="점핏 이미지" width="400px" height="200px">
+        </a>
+    </section>
+
+    <section id="rallit">
+        <h2>랠릿</h2>
+        <a href="https://www.rallit.com/">
+            <img src="images/rallit.png" alt="랠릿 이미지" width="400px" height="200px">
+        </a>
     </section>
 </div>
 </body>
