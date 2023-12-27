@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>게시 글</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>게시 글</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <style>
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #555;
+        overflow: hidden;
+    }
+
+    nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    </style>
 </head>
 <body>
+
+<div th:fragment="header">
+  <nav>
+    <a href="/">Home</a>
+    <a href="/articles">게시글 목록</a>
+    <a href="/new-article">게시글 작성</a>
+    <a style="float: right;" href="/logout">로그아웃</a>
+    <a style="float: right;" href="/signup">회원가입</a>
+  </nav>
+</div>
+
 <div class="p-5 mb-5 text-center</> bg-light">
   <h1 class="mb-3">글</h1>
   <h4 class="mb-3">게시글 페이지</h4>
