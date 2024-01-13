@@ -6,7 +6,7 @@
 # 1. 개요
 프로젝트 명: Web-Project  
 개발 인원: 1명  
-기간: 2023.12.24 ~ 2023.11.27  
+기간: 2023.12.24 ~ 2023.12.27  
 주요 기능: 스프링 시큐리티를 이용한 로그인/로그아웃 회원가입 기능, 게시판 글 CRUD 기능  
 기술: Java, SpringBoot, JavaScript, Lombok, REST API, SQL, HTML, Bootstrap, Thymeleaf  
 DB: H2 Database  
